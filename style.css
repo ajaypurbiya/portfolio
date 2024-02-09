@@ -160,7 +160,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("image/image.jpg") no-repeat center;
+    background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -363,10 +363,13 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 70%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
+}
+.skills-content .right .phpr::before{
+    width: 60%;
 }
 /* teams section styling */
 .teams .title::after{
